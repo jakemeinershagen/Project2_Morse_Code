@@ -27,6 +27,7 @@ void encode(string word) {
 
 int main()
 {
+	//create the tree
 	Tree t;
 	t.BuildTree();
 

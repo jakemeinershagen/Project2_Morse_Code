@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+//structure for each node of the tree
 struct node {
 	char val;
 	node* left = nullptr;
