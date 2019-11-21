@@ -33,4 +33,10 @@ int main()
 	cout << t.Decode(".___ ._ _._ .") << endl;
 	cout << t.Decode(".... . ._.. ._.. ___") << endl;
 	cout << t.Decode("__ ___ ._. ... . _._. ___ _.. .") << endl;
+	
+	encode("jake");
+	encode("hello");
+	encode("morsecode");
+	
+	return 0;
 }
