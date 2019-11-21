@@ -152,11 +152,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="morse code.cpp" />
-    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>

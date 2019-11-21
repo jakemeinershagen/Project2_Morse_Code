@@ -1,10 +1,11 @@
 #pragma once
+#include <string>
 using namespace std;
 
 struct node {
 	char val;
-	struct node* left;
-	struct node* right;
+	node* left = nullptr;
+	node* right = nullptr;
 };
 
 class Tree {
@@ -12,4 +13,6 @@ public:
 	struct node root;
 
 	void BuildTree();
+
+	string Decode(string code);
 };
